@@ -27,6 +27,7 @@ export const HeaderMenu = styled.div`
     border-spacing: 10px;
     font-weight: 500;
     color: #666666;
+    font-family: "Roboto", cursive;
   }
 
   p :nth-last-of-type() {

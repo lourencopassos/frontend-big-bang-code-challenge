@@ -24,7 +24,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Roboto', sans-serif;
-	@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700&family=Sansita+Swashed:wght@700;800;900&display=swap');
+
+
+
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,5 +57,6 @@ table {
 export const ContentContainer = styled.div`
   padding: 60px 0 120px 0;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
