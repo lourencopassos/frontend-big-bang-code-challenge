@@ -10,7 +10,7 @@ export const BannerContainer = styled.div`
   align-items: center;
 
   p:nth-of-type(1) {
-    font-family: "Lobster", cursive;
+    font-family: "Sansita Swashed", cursive;
     font-weight: 700;
     font-size: 36px;
   }
@@ -38,5 +38,6 @@ export const BannerHeadline = styled.div`
     width: 180px;
     height: 36px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 `;
