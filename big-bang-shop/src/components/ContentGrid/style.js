@@ -110,7 +110,7 @@ export const RightBottomContent = styled.div`
   p:nth-of-type(2) {
     font-size: 12px;
     color: #fff;
-    margin: 0 10px 10px 10px;
+    margin: 10px;
   }
 
   p:nth-of-type(1) {
