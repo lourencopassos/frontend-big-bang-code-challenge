@@ -4,6 +4,7 @@ import { GlobalStyle, ContentContainer } from "../src/globalStyle/GlobalStyle";
 import TopBanner from "../src/components/TopBanner";
 import ContentGrid from "../src/components/ContentGrid";
 import RecommendedProducts from "../src/components/RecommendedProducts";
+import Blog from "../src/components/Blog"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <TopBanner />
         <ContentGrid />
         <RecommendedProducts />
+        <Blog />
       </ContentContainer>
     </div>
   );

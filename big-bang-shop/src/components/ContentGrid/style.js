@@ -36,11 +36,13 @@ export const MainContentFooter = styled.div`
     font-size: 18px;
     margin-right: 50px;
     margin-left: 0;
+    text-decoration: underline;
   }
 
   span {
     font-size: 17px;
     color: #fff;
+    text-decoration: underline;
   }
 `;
 
